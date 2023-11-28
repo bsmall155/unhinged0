@@ -1,0 +1,21 @@
+@keyframes drop {
+  from {
+    height: 90%;
+    opacity: 0.8;
+  }
+  to {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+@keyframes right {
+  from {
+    width: 90%;
+    opacity: 0.6;
+  }
+  to {
+    width: 100%;
+    opacity: 1;
+  }
+}

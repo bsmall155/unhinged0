@@ -1,0 +1,69 @@
+.ibox {
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.loginbox {
+  background-color: rgb(80, 80, 80);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  width: 65%;
+  height: 100%;
+
+  border-radius: 25px;
+  border: 10px solid white;
+
+  box-shadow: -4px 6px rgb(0,0,0,0.5);
+}
+
+
+.interesttxt {
+  flex: 1;
+}
+.inputs {
+  flex: 6;
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.likes {
+  flex: 1;
+}
+.subbox {
+  flex: 1;
+}
+
+
+.likes.ntxt {
+  text-decoration: underline;
+  margin: 12px;
+}
+.txtb {
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  margin: 8px;
+}
+
+
+.subbox1 {
+  padding: 12px 20px;
+  border: 3px solid white;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(80, 80, 80);
+  box-shadow: -1px 3px black;
+}
+.subbox1:hover {
+  background-color: black;
+}

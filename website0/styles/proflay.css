@@ -1,0 +1,111 @@
+.page {
+  flex-direction: column;
+}
+.toppt {
+  flex: 1;
+
+  text-align: center;
+  margin: 16px;
+}
+.botpt {
+  flex: 16;
+
+  display: flex;
+  flex-direction: row;
+
+  margin: 16px;
+}
+.row2 {
+  flex: 12;
+}
+.ntxt {
+  font-size: 20px;
+}
+
+.curinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(80, 80, 80);
+  width: 50%;
+  min-width: 350px;
+}
+.curuser, .curpass {
+  margin-left: 8px;
+  margin-right:  8px;
+  text-align: center;
+
+  width: 100%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+
+  color: black;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.ntxt1 {
+  margin: 0px;
+}
+
+.emsub {
+  flex: 1;
+}
+
+
+.upuser, .newemail, .curemailinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border-style: solid;
+  border-width: 5px;
+  border-color: rgb(80, 80, 80);
+  width: 50%;
+  min-width: 350px;
+}
+.loginbox, .emailform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+.userbox, .passbox, .subbox, .emailbox, .curemail {
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  width: 100%;
+
+  color: black;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+
+  text-align: center; 
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.subbox {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.subbox1 {
+  padding: 6px 10px;
+  border: 3px solid white;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(80, 80, 80);
+  box-shadow: -1px 3px black;
+}
+
+

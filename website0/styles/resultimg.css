@@ -1,0 +1,12 @@
+.basicp {
+  width: 50%;
+}
+.row2-hgt {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mefr {
+  width: 100%;
+}

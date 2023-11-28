@@ -1,0 +1,59 @@
+.loginbox {
+  background-color: rgb(80, 80, 80);
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  height: 300px;
+  width: 300px;
+  position: absolute;
+
+  border-radius: 25px;
+  border: 10px solid white;
+
+  box-shadow: -4px 6px rgb(0,0,0,0.5);
+}
+.logintxt {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+}
+.userbox, .passbox, .emailbox {
+  margin: 4px;
+}
+.ibox {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 2px;
+  box-sizing: border-box;
+  border: 3px solid rgb(80, 80, 80);
+  border-radius: 12px;
+  transition: 0.5s;
+  outline: none;
+}
+.ibox:focus {
+  border: 3px solid black;
+}
+.iboxt {
+  font-size: 16px;
+  color: white;
+}
+
+.subbox {
+  margin: 16px;
+}
+.subbox1 {
+  padding: 12px 20px;
+  border: 3px solid white;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(80, 80, 80);
+  box-shadow: -1px 3px black;
+}
+.subbox1:hover {
+  background-color: black;
+}

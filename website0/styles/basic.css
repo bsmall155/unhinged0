@@ -1,0 +1,78 @@
+html {
+  background-color: rgb(120, 120, 120);
+  height: 100%;
+}
+body {
+  height: 100%;
+  margin: 0;
+}
+.ntxt {
+  font-size: 12px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+  margin: 8px;
+}
+
+.ban {
+  background-color: rgb(80, 80, 80);
+  height: 8%;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  box-shadow: 0px 5px white;
+
+  font-family: sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.banpc-pt1, .banpc-pt2, .banpc-pt3, .banpc-pt4 {
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+}
+.banpc-pt1, .banpc-pt4 {
+  flex: 2;
+  text-align: right;
+}
+.banpc-pt2 {
+  flex: 1;
+}
+.banpc-pt3 {
+  flex: 4;
+  text-align: center;
+}
+
+.ban-pt1-wdth, .ban-pt4-wdth {
+  font-size: 20px;
+}
+.ban-pt1-wdth {
+  width: 45%;
+}
+.ban-pt4-wdth {
+  width: 75%;
+}
+
+.banlogo {
+  width: 75%;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.banpc {
+  display: inline-block;
+
+  border: none;
+  background-color: rgb(0,0,0,0);
+  font-size: 20px;
+  color: white;
+}
+.banpc:hover {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-decoration-thickness: 2px;
+}
