@@ -1,4 +1,6 @@
 <?php
+  /* this file contains majority of the funtions to increase the admins functionality and provide CRUD options. */
+
   error_reporting(E_ALL);
   ini_set("display_errors", 1);
 
