@@ -1,4 +1,7 @@
 <?php 
+  /* This file contains most of the funtions used to increase user functionality and dealing with tables from a user standpoint,
+  this file also contains all the code for creating the relational database. */
+
   error_reporting(E_ALL);
   ini_set("display_errors", 1);
 
